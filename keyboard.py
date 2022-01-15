@@ -9,4 +9,3 @@ bg_canvas.pack(fill="both",expand=True)
 bg_canvas.create_image(0,0,image=bg_img,anchor="nw")
 
 window.mainloop()
-ggfgf
