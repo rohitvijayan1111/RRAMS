@@ -31,7 +31,6 @@ def songs(music):
 def main():
         music = "E-e-E-e-E-e-E-G-C-D-E-F-f-F-f-F-E-E-e-e-E-D-D-E-D-G-E-E-e-e-e-e-E-G-C-D-E-F-f-F-f-F-E-e-E-e-G-C-F-D-C"#To be inputted using mayank's code
         data1 = songs(music)
-        #data1 = data1*(16300/max(data1))
         name = input("Enter name of song file")
         name = name+".wav"
         print(name, "is downloaded in your pc..!!")
