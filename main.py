@@ -20,7 +20,7 @@ def two():
 #voice_back=tkinter.PhotoImage(main, file="voice_logo.png") #creates an object for storing image
 #label2=tkinter.PhotoImage(main,image=voice_back)
 #label2.place(x=190,y=152)
-assistant_img=tkinter.PhotoImage(file="assistant-pic.png") #creates an object for storing image
+assistant_img=tkinter.PhotoImage(file="assistant-picc.png") #creates an object for storing image
 assistant_button=tkinter.Button(main,image=assistant_img,borderwidth=0,width=174,height=187,fg="black",command=one)
 assistant_button.place(x=103,y=55)
 
