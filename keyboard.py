@@ -53,7 +53,7 @@ def b():
     string=string+"b"
 def save():
           global string
-          import K
+          import Keyboard piano.py
 button_1=tkinter.Button(window,image=key,borderwidth=0,width=44,height=98,fg="black",activebackground="blue2",command=C)
 button_1.place(x=0,y=242)
 button_2=tkinter.Button(window,image=key,borderwidth=0,width=44,height=98,fg="black",activebackground="blue2",command=c)
@@ -84,4 +84,5 @@ button_14=tkinter.Button(window,image=key,borderwidth=0,width=44,height=98,fg="b
 button_14.place(x=598,y=242)
 button_14=tkinter.Button(window,text="Save",borderwidth=0,width=44,height=98,fg="black",activebackground="blue2",command=save)
 button_14.place(x=598,y=242)
+
 window.mainloop()

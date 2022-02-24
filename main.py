@@ -14,8 +14,10 @@ def one():
     import voice_assistant
 
 
+
 def two():
-    import  keyboard
+    import keyboard
+
 
 #voice_back=tkinter.PhotoImage(main, file="voice_logo.png") #creates an object for storing image
 #label2=tkinter.PhotoImage(main,image=voice_back)
