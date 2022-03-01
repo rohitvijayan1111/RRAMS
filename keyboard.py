@@ -8,13 +8,11 @@ bg_canvas=tkinter.Canvas(window,width=374,height=633,bd=0,highlightthickness=0)
 bg_canvas.pack(fill="both",expand=True)
 bg_canvas.create_image(0,0,image=bg_img,anchor="nw")
 key=tkinter.PhotoImage(file="key.png")
-string=" "
+string=""
 def C():
     global string
     string=string+"C"
     string = string + "-"
-
-
 def c():
     global string
     string=string+"c"
@@ -73,9 +71,10 @@ def save():
           import tkinter
           import time
           from scipy.io.wavfile import write
-
           sample = 44000
-
+          global string
+          string="c-d-e-f"
+          print(string)
           def waves(freq, duration=0.5):
               amplitude = 4100
               t = numpy.linspace(0, duration, int(sample * duration))
@@ -137,7 +136,7 @@ button_13=tkinter.Button(window,image=key,borderwidth=0,width=44,height=98,fg="b
 button_13.place(x=552,y=242)
 button_14=tkinter.Button(window,image=key,borderwidth=0,width=44,height=98,fg="black",activebackground="blue2",command=b)
 button_14.place(x=598,y=242)
-button_14=tkinter.Button(window,text="Save",borderwidth=0,width=44,height=98,fg="black",activebackground="blue2",command=save)
-button_14.place(x=598,y=242)
+button_14=tkinter.Button(window,text=" Save ",borderwidth=0,fg="black",activebackground="blue2",command=save)
+button_14.place(x=595,y=0)
 
 window.mainloop()

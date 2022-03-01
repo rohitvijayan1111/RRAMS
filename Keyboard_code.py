@@ -29,7 +29,7 @@ def songs(music):
         return song.astype(numpy.int16)
 
 def main():
-        music = keyboard.keys()#To be inputted using mayank's code
+        music ="F-G-e-f-E-E"#To be inputted using mayank's code
         data1 = songs(music)
         name = input("Enter name of song file")
         name = name+".wav"
