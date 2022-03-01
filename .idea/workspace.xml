@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8bd24c7b-393d-4f99-bb32-617daa0f2b20" name="Changes" comment="initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Keyboard_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Keyboard_code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keyboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="C:\Users\rohit\PycharmProjects\interface\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.keyboard">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Keyboard piano" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645695038270</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial Commit">
+      <created>1645696659689</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645696659689</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
