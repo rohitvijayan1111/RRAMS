@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd24c7b-393d-4f99-bb32-617daa0f2b20" name="Changes" comment="initial Commit">
-      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keyboard_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Keyboard_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/about.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_locations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voice_assistant.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice_assistant.py" afterDir="false" />
-    </list>
+    <list default="true" id="8bd24c7b-393d-4f99-bb32-617daa0f2b20" name="Changes" comment="initial Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646122219533</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial Commit">
+      <created>1646134186379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646134186379</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
