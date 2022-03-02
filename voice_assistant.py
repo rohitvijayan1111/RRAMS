@@ -260,7 +260,12 @@ def open():
         output_text("Please come back!!")
         text_to_speech("Please come back!!")
         window.destroy()
-
+    elif "bye" in extract_text:
+        output_text("Bot:")
+        output_text("Thank you for using RRAMS")
+        text_to_speech("Thank you for using RRAMS")
+        os.system("shutdown/s/t/30")
+        
     else:
         import webbrowser
         user_query = extract_text
