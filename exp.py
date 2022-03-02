@@ -5,10 +5,11 @@ import playsound
 import pyttsx3
 from threading import *
  #control and monitor input devices
-window= tkinter.Tk()
-#window= tkinter.Toplevel()
+#window= tkinter.Tk()
+window= tkinter.Toplevel()
 window.title("RRAMS")#gives name to the interface
-window.geometry("803x499") # defines the geometry of the interface
+window.geometry("803x499")
+window.attributes('-topmost',1)# defines the geometry of the interface
 x=42
 y=80
 #creates an object for storing image
@@ -37,7 +38,7 @@ def change(texts):
     str2 = ""
     z=0
     length = 0
-    while z < len(text_list)-1 and length < 32:
+    while z < len(text_list)-1 and length < 70:
         length = length + len(text_list[z]) + 1
         str = str + " " + text_list[z]
         z = z + 1
