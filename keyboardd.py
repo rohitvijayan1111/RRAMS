@@ -152,7 +152,7 @@ def save():
         music = string  # To be inputted using mayank's code
         data1 = songs(music)
         name=name+".wav"
-        wavio.write(name, data1, sample, sampwidth=2)
+        write(name,sample,data1.astype(numpy.int16))
     main()
 
 def delete():
