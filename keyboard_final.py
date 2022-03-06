@@ -132,7 +132,7 @@ def save():
                 return w
 
             def notes():
-                octaves = ["C", "c", "D", "d", "E", "e", "F", "f", "G", "g", "A", "a", "B", "b"]
+                octaves = ["C", "D", "E", "F", "G", "A", "B", "c", "d", "e", "f", "g", "a", "b"]
                 bfreq = 261.63
                 notefreq = {}
                 for i in range(len(octaves)):
