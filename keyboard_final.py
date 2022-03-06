@@ -131,17 +131,9 @@ def save():
                 w = amplitude * numpy.sin(2 * numpy.pi * freq * t)
                 return w
 
-            def notes():
-                octaves = ["C", "D", "E", "F", "G", "A", "B", "c", "d", "e", "f", "g", "a", "b"]
-                bfreq = 261.63
-                notefreq = {}
-                for i in range(len(octaves)):
-                    notefreq[octaves[i]] = bfreq * pow(2, (i / 12))
-                notefreq[""] = 0
-                return notefreq
-
             def songs(music):
-                notefreq = notes()
+                notefreq = {'C':261.63,'D':293.66, 'E': 329.63, 'F':349.23,'G':392,'A':440,'B':493.88,'c':523.25,
+                            'd':587.33, 'e':659.26, 'f':698.46, 'g':783.99,'a':880, 'b':987.77}
                 song = []
                 for note in music.split('-'):
                     x = waves(notefreq[note])
